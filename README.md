@@ -94,6 +94,14 @@ lib/client.js     客户端半：包装 focusedTarget + 双击关闭
 cordis.patch.yml  插入插件行
 ```
 
+## 赞赏
+
+如果这个插件帮你省了钱，欢迎扫码请作者喝一杯 ☕（纯属自愿，不影响使用和更新）
+
+<p align="center">
+  <img src="assets/reward-qr.png" alt="赞赏码" width="260">
+</p>
+
 ## English
 
 **dsh-sidebar-tab-close** flips the `Ctrl+W` priority in the DeepSeek Harness desktop client: when the right sidebar is open with a closable tab, `Ctrl+W` now closes that tab instead of the window. Double-clicking a sidebar tab closes it too. Pure client-side plugin — it wraps the public `ctx.sidebarRight` controller at runtime, never touches `app.asar`, and restores the stock behavior when disabled.
@@ -102,6 +110,8 @@ cordis.patch.yml  插入插件行
 dsh plugin --profile desktop add "git+https://github.com/Aily-DSH/dsh-sidebar-tab-close.git"
 # restart the client once
 ```
+
+**Sponsor:** if this plugin saved you money, you can buy the author a coffee — scan `assets/reward-qr.png`.
 
 ## License
 
