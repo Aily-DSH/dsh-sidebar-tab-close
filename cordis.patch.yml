@@ -1,0 +1,7 @@
+# dsh-sidebar-tab-close: mounts a client-only plugin that changes two sidebar
+# tab interactions in the DSH client: Ctrl+W closes the active right-sidebar
+# tab before the window, and double-clicking a sidebar tab closes it.
+# Install into a profile: dsh plugin --profile desktop add <path-or-package>
+- insert:
+    - id: sidebar-tab-close
+      name: dsh-sidebar-tab-close

@@ -1,0 +1,50 @@
+{
+  "name": "dsh-sidebar-tab-close",
+  "version": "0.1.0",
+  "description": "Close the right-sidebar tab first: Ctrl+W prefers the active sidebar tab over the window, and double-clicking a sidebar tab closes it.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar-right"
+      ],
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "license": "MIT",
+  "author": "Aily-DSH",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aily-DSH/dsh-sidebar-tab-close.git"
+  },
+  "homepage": "https://github.com/Aily-DSH/dsh-sidebar-tab-close#readme",
+  "bugs": {
+    "url": "https://github.com/Aily-DSH/dsh-sidebar-tab-close/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "sidebar",
+    "keyboard-shortcut",
+    "tabs"
+  ]
+}
