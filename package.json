@@ -1,6 +1,6 @@
 {
   "name": "dsh-sidebar-tab-close",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Close the right-sidebar tab first: Ctrl+W prefers the active sidebar tab over the window, and double-clicking a sidebar tab closes it.",
   "type": "module",
   "main": "lib/index.js",
